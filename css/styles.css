@@ -1,0 +1,29 @@
+:root {
+    
+}
+
+body {
+    color: #757575;
+    background: #FFFFFF;
+}
+/* заголовки color: #212121; */
+/*  цвет hero color: #FFFFFF; */
+/*  background: #FFFFFF; */
+/* primary color #2196F3*/
+/* secondary color  */
+/* color text */
+/* color title */
+/* bakcground color */
+/* color link */
+
+/* logo, link color #000000; #2196F3 */
+/* btn color #FFFFFF background: #2196F3; */
+/* font-family: 'Raleway',
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
