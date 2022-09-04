@@ -1,29 +1,42 @@
 :root {
-    --primary-color: #757575;
-    --secondary-color: #2196F3;
+    --primary-color-text: #757575;
+    --accent-color: #2196F3;
     --bgd-color: #FFFFFF;
-
+    --bgd-color-footer: #2F303A;
+    --color-link: #212121;
 
 }
 
 /* Body */
 
 body {
-    color: var(--primary-color);
+    color: var(--primary-color-text);
     background-color: var(--bgd-color);
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    letter-spacing: 0.03em;
 }
 
+a {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+
+.btn-nav {
+    color: red;
+}
 /* Header */
 
 .logo {
-    color: var(--secondary-color);
+    color: var(--accent-color);
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    text-decoration: none;
 }
-.studio {
+.logo span {
     color: #000000;
 }
 
@@ -31,6 +44,20 @@ body {
     
 }
 
+/* Portfolio */
+
+
+/* Footer */
+.footer {
+    background-color: var(--bgd-color-footer);
+}
+span.studio,
+.adress-text {
+    color: var(--bgd-color);
+}
+.auth-link {
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
 
@@ -39,12 +66,7 @@ body {
 /* заголовки color: #212121; */
 /*  цвет hero color: #FFFFFF; */
 /*  background: #FFFFFF; */
-/* primary color #2196F3*/
-/* secondary color  */
-/* color text */
-/* color title */
-/* bakcground color */
-/* color link */
+
 
 /* logo, link color #000000; #2196F3 */
 /* btn color #FFFFFF background: #2196F3; */
